@@ -1,0 +1,3 @@
+# BitBand:
+
+A bit-band region maps each word in a bit-band alias region to a single bit in the bit-band region.
