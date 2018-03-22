@@ -14,7 +14,7 @@ The folders in the root directory of this repository is structured as follows:
             ...
         code/
         examples/
-        initialization.md
+        README.md
     ...
 
 
