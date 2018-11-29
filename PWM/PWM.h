@@ -1,14 +1,15 @@
-#ifndef  _PWM_H_
-#define _PWM_H_
+#include <tm4c123gh6pm.h>
 
-#include<stdint.h>
-#include"tm4c123gh6pm.h"
-//#include "Pins.h"
+#define F_CPU_US 16
+#define ENABLE GPIO_PORTA_DATA_R^=0x40
+#define PWM_FREQ 399
 
-//void PWM_init(uint16_t frequency, uint8_t porcentage);
-void PWM_init(uint8_t porcentage);
+void pwm_init();
 
-//void PWM_write(uint16_t frequency, uint8_t porcentage);
-void PWM_write(uint8_t porcentage);
+void pwm_1(uint8_t estado);
 
-#endif
+void pwm_2(uint8_t estado);
+
+void pwm_3(uint8_t estado);
+
+void pwm_4(uint8_t estado);
